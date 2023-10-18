@@ -1,10 +1,7 @@
-
-
-def containes(nums):
-   if len(nums)==len(set(nums)):
-       return(False)
-   else:
-       return(True)
-print(containes([1,2,2,4]))
-# x = [1,2,2,4]
-# print(set(x))
+class Solution(object):
+    def containsDuplicate(self, nums):
+        if len(nums)==len(set(nums)):
+            return(False)
+        else:
+            return(True)
+        
