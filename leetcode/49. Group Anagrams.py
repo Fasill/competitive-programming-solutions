@@ -6,7 +6,7 @@ class Solution:
         # Iterate through the input list of strings
         for word in strs:
             # Sort the characters in the current word and join them back together
-            sorted_word = "".join(sorted(word)
+            sorted_word = "".join(sorted(word))
             
             # Check if the sorted word is already in the dictionary
             if sorted_word not in anagrams:
