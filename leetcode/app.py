@@ -26,6 +26,7 @@ class LinkedList:
 
         itr.next = Node(data)
 
+
     def print(self):
         # Print the linked list
         if self.head is None:
