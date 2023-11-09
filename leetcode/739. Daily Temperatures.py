@@ -9,4 +9,3 @@ def f(temperatures):
         stack.append(i)
 
     return answer
-
