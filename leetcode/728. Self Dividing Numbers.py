@@ -1,5 +1,5 @@
 
-def f(left,right):
+def selfDividing(left,right):
     ans = []
     for i in range(left,right+1):
         if len(str(i)) ==1:
@@ -15,4 +15,4 @@ def f(left,right):
                 ans.append(i)
     return ans
 
-print(f(1,22))
+print(selfDividing(1,22))
