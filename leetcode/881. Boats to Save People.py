@@ -12,5 +12,4 @@ class Solution:
             elif people[p1]+people[p2] >= limit:
                 p2 -= 1
                 c += 1
-
         return c
