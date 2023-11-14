@@ -23,6 +23,7 @@ class Solution:
                 r -=1
         if s2  != s1:
             return -1
+
         return sum(ans)
 
 
