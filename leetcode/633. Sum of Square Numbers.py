@@ -1,5 +1,6 @@
 from math import *
 class Solution:
+
     def judgeSquareSum(self, c: int) -> bool:
         p1 = 0
         p2 = int(sqrt(c))
